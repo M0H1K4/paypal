@@ -1,4 +1,15 @@
 import React from "react";
+import Foto1 from "../../payapi-multi-page-website/starter-code/assets/shared/desktop/google.svg";
+import Foto2 from "../../payapi-multi-page-website/starter-code/assets/shared/desktop/microsoft.svg";
+import Foto3 from "../../payapi-multi-page-website/starter-code/assets/shared/desktop/nvidia.svg";
+import Foto4 from "../../payapi-multi-page-website/starter-code/assets/shared/desktop/tesla.svg";
+import Foto5 from "../../payapi-multi-page-website/starter-code/assets/shared/desktop/hewlett-packard.svg";
+import Foto6 from "../../payapi-multi-page-website/starter-code/assets/shared/desktop/oracle.svg";
+// import Foto1
+// import Foto1
+// import Foto1
+// import Foto1
+// import Foto1
 
 export default function about() {
   return (
@@ -12,6 +23,26 @@ export default function about() {
           their users.
         </h4>
         <button className="aboutButton">About Us</button>
+      </div>
+      <div className="forGrid">
+        <div className="grid_item">
+          <img src={Foto1} className="fotos"  alt="" />
+        </div>
+        <div className="grid_item">
+          <img src={Foto2}className="fotos"  alt="" />
+        </div>
+        <div className="grid_item">
+          <img src={Foto3} className="fotos"  alt="" />
+        </div>
+        <div className="grid_item">
+          <img src={Foto4} className="fotos"  alt="" />
+        </div>
+        <div className="grid_item">
+          <img src={Foto5} className="fotos"  alt="" />
+        </div>
+        <div className="grid_item">
+          <img src={Foto6} className="fotos" alt="" />
+        </div>
       </div>
     </div>
   );

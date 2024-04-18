@@ -33,6 +33,19 @@ nav {
 }
 .Headerbutton {
   margin-left: 900px;
+  border-radius: 24px;
+  color: white;
+  background: #ba4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  width: 173px;
+  height: 48px;
+  flex-shrink: 0;
+  border: none;
+  cursor: pointer;
+}
+.Headerbutton:hover {
+  background: #da6d97;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
 }
 a {
   text-decoration: none;
@@ -90,6 +103,10 @@ a {
   margin-left: -100px;
   cursor: pointer;
 }
+.infoDivButton:hover {
+  background: #da6d97;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
 .infoDivInput {
   width: 445px;
   height: 48px;
@@ -98,6 +115,10 @@ a {
   background: #fbfcfe;
   box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
   color: #36536b;
+  border: none;
+  padding: 20px;
+}
+.infoDivInput:active{
   border: none;
 }
 .infoDivInput::placeholder {
@@ -150,4 +171,16 @@ a {
   background: #36536b;
   border: none;
   margin-top: 20px;
+}
+.forGrid {
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px; /* Adjust the gap between photos */
+  column-gap: 140px;
+  right: 15%;
+}
+.fotos {
+  fill: #fff;
 }
