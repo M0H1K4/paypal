@@ -31,3 +31,20 @@ nav{
 a{
   text-decoration: none ;
 }
+body{
+  background-image: url('../../paypal/src/payapi-multi-page-website/starter-code/assets/shared/desktop/bg-pattern-circle.svg') ;
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-position: right -20% top -50%;
+  width: 100%;
+  overflow: hidden;
+}
+.infoDiv{ 
+  display: flex;
+  flex-direction: column;
+  margin-top: 24rem;
+  width: 546px;
+  height: 243px;
+  flex-shrink: 0; 
+  padding: 40px 165px;
+}
