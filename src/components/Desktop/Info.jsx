@@ -1,4 +1,6 @@
 import React from "react";
+import Phone from '../../payapi-multi-page-website/starter-code/assets/home/desktop/illustration-phone-mockup.svg'
+
 
 export default function Info() {
   return (
@@ -11,6 +13,7 @@ export default function Info() {
         <button className="infoDivButton" >Schedule a Demo</button>
       </div>
       <h4 className="infoDivH4">Have any questions?  Contact Us</h4>
+      <img className="phone1" src= {Phone}  alt="" />
     </div>
   );
 }

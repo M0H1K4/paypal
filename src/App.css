@@ -14,7 +14,7 @@ body {
   /* background-color: blue; */
 }
 .header {
-  position: fixed;
+  /* position: fixed; ეს აძლევს იმის საშუალებას რომ ნავბარი დარჩეს სულ თვალთახედვაში */
   top: 0;
   left: 0;
   max-width: 100%;
@@ -70,6 +70,13 @@ a {
 }
 .infoDivH4 {
   margin-top: 13px;
+  margin-left: 32px;
+  color: #6c8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .infoDivButton {
   position: absolute;
@@ -95,4 +102,52 @@ a {
 }
 .infoDivInput::placeholder {
   padding: 30px;
+}
+.phone1 {
+  position: absolute;
+  right: 8%;
+  top: 30%;
+}
+.aboutDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 472px;
+  flex-shrink: 0;
+  background: #1b262f;
+  color: white;
+  margin-top: 180px;
+}
+.aboutDiv2 {
+  padding: 40px 165px;
+}
+.aboutH1 {
+  color: #fbfcfe;
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.369px;
+}
+.aboutH4 {
+  color: #fbfcfe;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+  width: 445px;
+  margin-top: 30px;
+}
+.aboutButton {
+  width: 129px;
+  height: 48px;
+  flex-shrink: 0;
+  flex-shrink: 0;
+  border-radius: 100px;
+  background: #36536b;
+  border: none;
+  margin-top: 20px;
 }
