@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../payapi-multi-page-website/starter-code/assets/shared/desktop/logo.svg";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -10,19 +11,13 @@ export default function Header() {
           <nav>
             <ul className="nav-links">
               <li>
-                <a className="linki" href="#">
-                  Pricing
-                </a>
+                <Link to="/price">Pricing</Link>
               </li>
               <li>
-                <a className="linki" href="#">
-                  About
-                </a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a className="linki" href="#">
-                  Contact
-                </a>
+                <Link to="/contact">Contact</Link>
               </li>
             </ul>
           </nav>
