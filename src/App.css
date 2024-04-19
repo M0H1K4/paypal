@@ -217,9 +217,9 @@ a {
   align-items: center;
   width: 80%;
 }
- .imgdiv{
+.imgdiv {
   margin-left: -3.6rem;
-} 
+}
 .middleTxts {
   display: flex;
   flex-direction: column;
@@ -247,3 +247,154 @@ a {
 
 /* ||||||||| middle2 styles ||||||||||| */
 
+/* ||||||||| static styles ||||||||||| */
+.staticGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 8rem;
+}
+.staticDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers items horizontally */
+  text-align: center; /* Centers text content */
+  gap: 1rem;
+}
+.staticGrid2 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  /* align-items: center; */
+  /* gap: 5rem; */
+}
+.staticH1 {
+  color: #36536b;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+  letter-spacing: -0.138px;
+}
+.staticH4 {
+  color: #6c8294;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  letter-spacing: -0.115px;
+  width: 350px;
+}
+
+/* ||||||||| Under styles ||||||||||| */
+.underDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 9rem;
+}
+.underDiv1 {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.underH1 {
+  color: #36536b;
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.369px;
+  width: 445px;
+}
+.underButton {
+  color: white;
+  border-radius: 24px;
+  background: #ba4270;
+  width: 173px;
+  height: 48px;
+  flex-shrink: 0;
+  border: none;
+  position: absolute;
+  right: 8%;
+}
+.underButton:hover {
+  background: #da6d97;
+  cursor: pointer;
+}
+.underInput {
+  width: 445px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fbfcfe;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  padding-left: 2rem;
+  border: none;
+}
+
+/* ||||||||| Footer styles ||||||||||| */
+.footerDiv1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background: #1b262f;
+  margin-top: 40px;
+}
+.footerDiv2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.footerDiv3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.footerDiv4 {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+li {
+  list-style: none;
+}
+
+
+
+.nav-links2 {
+  display: flex;
+  gap: 4rem;
+}
+
+.linki2 {
+  color: #fbfcfe;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.linki2:hover {
+  color: #fbfcfe; /* Change color on hover */
+}
+.FooterLogo{
+  fill: white;
+}
+.svg{
+  fill: red;
+}
