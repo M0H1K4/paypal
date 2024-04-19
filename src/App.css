@@ -76,6 +76,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: width 2s;
 }
 
 .infoDiv2 {
@@ -132,8 +133,8 @@ a {
   width: 400px;
   position: relative;
 }
-.infoButton:hover{
-  background: #DA6D97;
+.infoButton:hover {
+  background: #da6d97;
   cursor: pointer;
 }
 
@@ -197,7 +198,52 @@ a {
   border: 1px solid #fbfcfe;
   color: white;
 }
-.aboutButton:hover{
-  background: #FFF;
+.aboutButton:hover {
+  background: #fff;
   color: black;
 }
+
+/* ||||||||| middle styles ||||||||||| */
+.middleDiv1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  padding-top: 6rem;
+}
+.middleDiv2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+ .imgdiv{
+  margin-left: -3.6rem;
+} 
+.middleTxts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.middleH1 {
+  color: #36536b;
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.369px;
+  width: 445px;
+}
+.middleH3 {
+  color: #6c8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+  width: 445px;
+}
+
+/* ||||||||| middle2 styles ||||||||||| */
+
