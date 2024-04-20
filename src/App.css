@@ -357,7 +357,7 @@ a {
   align-items: center;
   width: 80%;
 }
-.footerDiv3{
+.footerDiv3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -371,8 +371,6 @@ a {
 li {
   list-style: none;
 }
-
-
 
 .nav-links2 {
   display: flex;
@@ -392,9 +390,88 @@ li {
 .linki2:hover {
   color: #fbfcfe; /* Change color on hover */
 }
-.FooterLogo{
+.FooterLogo {
   fill: white;
 }
-.svg{
+.svg {
   fill: red;
+}
+
+/* PRICING STYLES */
+hr {
+  width: 350px;
+  height: 1px;
+  flex-shrink: 0;
+  opacity: 0.25;
+  background: #36536b;
+  border: none;
+}
+.pricingDiv__1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  /* width: 350px; */
+  width: 100%;
+
+  /* background-color: red; */
+}
+.pricingDiv__3 {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 2rem;
+  width: 80%;
+  padding-top: 10rem;
+}
+.pricingDiv__2 {
+  margin-left: 100px;
+} 
+.pricingH1__2 {
+  color: #ba4270;
+  font-family: "DM Serif Display";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.246px;
+}
+.pricingH3__1 {
+  color: #6c8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 186.667% */
+  width: 350px;
+}
+.pricingH1__3 {
+  color: #36536b;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 128.571% */
+  letter-spacing: -0.431px;
+}
+.ul__1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.pricingButton__1 {
+  width: 168px;
+  height: 48px;
+  flex-shrink: 0;
+  color: #36536b;
+  border-radius: 24px;
+  background: #edf3f8;
+  border: 1px solid white;
+  border: 1px solid #36536b;
+}
+.pricingButton__1:hover {
+  border-radius: 24px;
+  border: 1px solid #36536b;
+  background: #36536b;
+  color: white;
+  cursor: pointer;
 }
