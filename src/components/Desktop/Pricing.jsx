@@ -1,10 +1,13 @@
 import React from "react";
+import Check from "../../payapi-multi-page-website/starter-code/assets/shared/desktop/icon-check.svg";
 
 export default function Pricing() {
   return (
     <>
+      <div className="h1Div">
+        <h1 className="pricingH1__1">Pricing</h1>
+      </div>
       <div className="pricingDiv__1">
-        {/* <h1 className="pricingH1__1">Pricing</h1> */}
         <div className="pricingDiv__3">
           <Props
             name="Free Plan"
@@ -39,13 +42,34 @@ function Props(props) {
       <hr />
       <div className="lists">
         <ul className="ul__1">
-          <li>Transactions</li>
-          <li>Auth</li>
-          <li>Identity</li>
-          <li>Investments</li>
-          <li>Assets</li>
-          <li>Liabilities</li>
-          <li>Income</li>
+          <div className="pricingDiv__4">
+            <img className="pricingCheck" src={Check} alt="" />
+            <li>Transactions</li>
+          </div>
+          <div className="pricingDiv__4">
+            <img className="pricingCheck" src={Check} alt="" />
+            <li>Auth</li>
+          </div>
+          <div className="pricingDiv__4">
+            <img className="pricingCheck" src={Check} alt="" />
+            <li>Identity</li>
+          </div>
+          <div className="pricingDiv__4">
+            <img className="pricingCheck" src={Check} alt="" />
+            <li>Investments</li>
+          </div>
+          <div className="pricingDiv__4">
+            <img className="pricingCheck" src={Check} alt="" />
+            <li>Assets</li>
+          </div>
+          <div className="pricingDiv__4">
+            <img className="pricingCheck" src={Check} alt="" />
+            <li>Liabilities</li>
+          </div>
+          <div className="pricingDiv__4">
+            <img className="pricingCheck" src={Check} alt="" />
+            <li>Income</li>
+          </div>
         </ul>
       </div>
       <hr />

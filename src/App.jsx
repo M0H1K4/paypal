@@ -16,8 +16,8 @@ function App() {
       <Middle />
       <Middle2 />
       <Static />
-      <Under />
-      <Footer />
+      {/* <Under /> */}
+      {/* <Footer /> */}
     </>
   );
 }

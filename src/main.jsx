@@ -4,6 +4,8 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import Pages from "./components/Desktop/Pages";
 import Header from "./components/Desktop/Header";
+import Under from "./components/Desktop/Under";
+import Footer from "./components/Desktop/footer";
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -11,6 +13,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Header />
       <Pages />
+      <Under />
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );
