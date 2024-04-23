@@ -561,17 +561,41 @@ hr {
   font-weight: 400;
   line-height: 28px; /* 186.667% */
 }
-.aboutImg{
+.aboutImg {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 10rem;
 }
-.propsMainDiv{
+.propsMainDiv {
   display: flex;
   width: 80%;
   justify-content: center;
   align-items: center;
   gap: 4rem;
+  padding-left: 20rem;
+  padding-top: 3rem;
+}
+.props2 {
+  width: 350px;
+  height: 134px;
+  flex-shrink: 0;
+}
+.propsH2 {
+  color: #36536b;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.propsP {
+  color: #ba4270;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px; /* 128.571% */
+  letter-spacing: -0.431px;
 }
