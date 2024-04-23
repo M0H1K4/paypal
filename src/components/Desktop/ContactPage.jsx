@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import Inputs from "./Inputs";
 
 export default function ContactPage() {
   return (
-    <div>
-        this is contact page
-    </div>
-  )
+      <>
+      <Inputs/> 
+      </>
+  );
 }

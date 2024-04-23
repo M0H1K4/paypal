@@ -18,12 +18,14 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: flex-end;
+  /* position: fixed; */
 }
 
 .header-container {
   width: 80%;
   display: flex;
   justify-content: space-between;
+  /* position: fixed; */
 }
 
 .logo-nav {
@@ -598,4 +600,56 @@ hr {
   font-weight: 400;
   line-height: 72px; /* 128.571% */
   letter-spacing: -0.431px;
+}
+
+/*  inputs css   */
+/* From uiverse.io by @alexruix */
+.input {
+  line-height: 28px;
+  border: 2px solid transparent;
+  border-bottom-color: #777;
+  padding: 0.2rem 0;
+  outline: none;
+  background-color: transparent;
+  color: #0d0c22;
+  transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.input:focus,
+input:hover {
+  outline: none;
+  padding: 0.2rem 1rem;
+  border-radius: 1rem;
+  border-color: #7a9cc6;
+}
+
+.input::placeholder {
+  color: #777;
+}
+
+.input:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.inputs {
+  display: flex;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  flex-direction: column;
+  padding-left: 12rem;
+  padding-top: 4rem;
+  width: 80%;
+  gap: 4rem;
+}
+.input {
+  width: 445px;
+  height: 42px;
+  flex-shrink: 0;
+}
+/*  inputs css   */
+
+.inputs input:nth-child(5) {
+  width: 445px;
+  height: 89px;
+  flex-shrink: 0;
 }
