@@ -561,3 +561,17 @@ hr {
   font-weight: 400;
   line-height: 28px; /* 186.667% */
 }
+.aboutImg{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
+}
+.propsMainDiv{
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}

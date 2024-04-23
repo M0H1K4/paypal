@@ -1,4 +1,6 @@
 import React from "react";
+import AboutImg from "../../payapi-multi-page-website/starter-code/assets/about/desktop/image-team-members.jpg";
+import AboutPageProps from "./AboutPageProps";
 
 export default function AboutPage() {
   return (
@@ -31,6 +33,10 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
+      <div className="aboutImg">
+        <img src={AboutImg} alt="" />
+      </div>
+      <AboutPageProps />
     </>
   );
 }
