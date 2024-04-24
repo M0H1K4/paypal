@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Public+Sans:ital@0;1&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -656,38 +658,174 @@ input:hover {
 .infoDivTablet {
   display: none;
 }
+.headerTablet {
+  display: none;
+}
 /* Responsive for TABLET STYLES */
 @media (max-width: 1024px) {
   body {
-    background-color: red;
-    /* width: 768px; */
+    /* background-color: red; */
+    min-width: 1024px;
   }
-  .infoDiv {
+
+  /* header styles */
+  .header {
     display: none;
   }
-  .infoDivTablet {
+  .headerTablet {
     display: block;
+    width: 100%;
+    height: 100px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
   }
-  .img1Tablet {
-    width: 290px;
-    height: 420px;
-    flex-shrink: 0;
+  .header-containerTablet{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
   }
-  .infoH1Tablet {
-    color: #36536b;
-    text-align: center;
-    font-family: "DM Serif Display";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 56px; /* 116.667% */
-    letter-spacing: -0.369px;
-    width: 573px;
-    height: 122px;
-    flex-shrink: 0;
-  }
+  .logo-navTablet {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+}
+
+.headerTablet nav {
+  width: 40%;
+}
+
+.headerTablet nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+  padding-left: 2rem;
+}
+
+.headerTablet nav ul li {
+  list-style: none;
+}
+
+.HeaderbuttonTablet {
+  border-radius: 24px;
+  color: white;
+  background: #ba4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  width: 173px;
+  height: 48px;
+  flex-shrink: 0;
+  border: none;
+  cursor: pointer;
+}
+.HeaderbuttonTablet:hover {
+  background: #da6d97;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+}
+/* ////////////////////////// info styles */
+.infoDivTablet {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 2s;
+}
+
+.infoDiv2Tablet {
+  width: 80%;
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.txtsTablet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  /* align-items: start; */
+  /* background-color: red; */
+}
+
+.infoH3Tablet {
+  color: #6c8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 1.5rem;
+}
+.input1Tablet {
+  width: 400px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fbfcfe;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  outline: none;
+  border: none;
+  padding-left: 20px;
+  position: absolute;
+  left: 20%;
+}
+
+.inputButtonTablet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin-left:100px;
+  /* position: relative; */
+}
+.infoButtonTablet:hover {
+  background: #da6d97;
+  cursor: pointer;
+}
+
+.infoButtonTablet {
+  width: 170px;
+  height: 40px;
+  z-index: 1;
+  border-radius: 24px;
+  border: none;
+  background: #ba4270;
+  color: white;
+  margin-left: 230px;
+}
+.infoDiv {
+  display: none;
+}
+.infoDivTablet {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img1Tablet {
+  width: 290px;
+  height: 420px;
+  flex-shrink: 0;
+  /* margin-left: ; */
+}
+.infoH1Tablet {
+  color: #36536b;
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.369px;
+  /* width: 573px; */
+  height: 122px;
+  flex-shrink: 0;
+}
+
 }

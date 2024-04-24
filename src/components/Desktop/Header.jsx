@@ -1,9 +1,12 @@
 import React from "react";
 import Logo from "../../payapi-multi-page-website/starter-code/assets/shared/desktop/logo.svg";
 import { Link } from "react-router-dom";
+import HeaderTablet from "../Tablet/HeaderTablet";
 
 export default function Header() {
   return (
+    <>
+    <HeaderTablet/>
     <header className="header">
       <div className="header-container">
         <div className="logo-nav">
@@ -27,5 +30,6 @@ export default function Header() {
         </button>
       </div>
     </header>
+    </>
   );
 }
