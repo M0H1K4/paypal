@@ -6,9 +6,9 @@
 body {
   background: #edf3f8;
   /* background-image: url('../../paypal/src/payapi-multi-page-website/starter-code/assets/shared/desktop/bg-pattern-circle.svg') ; */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-position: cover;
-  background-position: right -20% top -50%;
+  background-position: right -20% top -50%; */
   width: auto;
 }
 .header {
@@ -652,4 +652,42 @@ input:hover {
   width: 445px;
   height: 89px;
   flex-shrink: 0;
+}
+.infoDivTablet {
+  display: none;
+}
+/* Responsive for TABLET STYLES */
+@media (max-width: 1024px) {
+  body {
+    background-color: red;
+    /* width: 768px; */
+  }
+  .infoDiv {
+    display: none;
+  }
+  .infoDivTablet {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img1Tablet {
+    width: 290px;
+    height: 420px;
+    flex-shrink: 0;
+  }
+  .infoH1Tablet {
+    color: #36536b;
+    text-align: center;
+    font-family: "DM Serif Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.369px;
+    width: 573px;
+    height: 122px;
+    flex-shrink: 0;
+  }
 }
